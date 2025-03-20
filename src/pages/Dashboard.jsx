@@ -30,7 +30,7 @@ const Dashboard = () => {
                        <span className="flex items-center ml-6  gap-2">
 Who are viable to use this portal
                        </span>
-                       <span>{isInquiriesOpen ? "- " : "+"}</span>
+                       <span>{isInquiriesOpen ? "- ": "+"}</span>
                      </button>
                      {isInquiriesOpen && (
                        <div className="pl-6 ">
