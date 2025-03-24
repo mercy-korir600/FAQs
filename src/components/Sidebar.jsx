@@ -28,7 +28,7 @@ const Sidebar = ({SidebarToggle}) => {
           className="flex items-center justify-between w-full p-1 text-lg hover:bg-blue-900 rounded"
         >
           <span className="flex items-center gap-2">
-          <LuGlobe /> Socials
+          <LuGlobe />Socials
           </span>
           <span>{isSocialsOpen ? " " : ">"}</span>
         </button>
@@ -51,7 +51,7 @@ const Sidebar = ({SidebarToggle}) => {
           className="flex items-center justify-between w-full p-1 text-lg hover:bg-blue-900 rounded"
         >
           <span className="flex items-center gap-2">
-          <TbBuildingBank /> Admission
+          <TbBuildingBank />Admission
           </span>
           <span>{isAdmissionOpen ? "<" : ">"}</span>
         </button>
