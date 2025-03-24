@@ -21,12 +21,12 @@ const Dashboard = () => {
             <h2 className="text-lg mb-4 text-blue-700 font-semibold">General Inquiries</h2>
             <div className="border rounded-lg overflow-hidden">
              <div>
-             {/* <h2 className="mt-6 text-blue-600 font-semibold pl-4">General Inquiries</h2> */}
+            
                      <button
                        onClick={() => setIsInquiriesOpen(!isInquiriesOpen)}
                        className="flex items-center justify-between w-full p-1 text-lg hover:bg-blue-100 pr-4 mt-2  rounded overflow-hidden"
                      >
-                      {/* border rounded-lg  */}
+                     
                        <span className="flex items-center ml-6  gap-2">
 Who are viable to use this portal
                        </span>
@@ -34,7 +34,7 @@ Who are viable to use this portal
                      </button>
                      {isInquiriesOpen && (
                        <div className="pl-6 ">
-                         <p className="py-1 cursor-pointer rounded px-2">The Staff,Students, and the Admins</p>
+                         <p className="py-1 cursor-pointer rounded px-2">The Staff,Students and the Admins</p>
                          </div>
                      )}
                    </div>

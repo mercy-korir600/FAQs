@@ -7,7 +7,6 @@ import { RiBookOpenLine,RiFolderOpenLine  } from "react-icons/ri";
 import { PiCalendarBlankBold, PiHeadsetFill } from "react-icons/pi";
 import { FiClipboard } from "react-icons/fi";
 import { GoReport, GoQuestion } from "react-icons/go";
-// import { FaCopyright } from "react-icons/fa";
 
 const Sidebar = ({SidebarToggle}) => {
   const [isSocialsOpen, setIsSocialsOpen] = useState(false);
@@ -20,7 +19,7 @@ const Sidebar = ({SidebarToggle}) => {
     <div className={` ${SidebarToggle?"hidden":"block"} w-64 max-h-screen bg-gradient-to-b from-blue-700 to-blue-700 text-white p-4`}>
      <div className="mt-4 space-y-2">
         <button className="flex items-center gap-2 w-full p-1 text-lg hover:bg-blue-900 rounded">
-        <CiGrid42 /> Dashboard
+        <CiGrid42 />Dashboard
         </button>
       </div>
       <div>
